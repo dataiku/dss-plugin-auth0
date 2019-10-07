@@ -1,0 +1,31 @@
+{
+    "meta" : {
+        "label": "Auth0 Connection",
+        "icon": "icon-puzzle-piece"
+    },
+
+    "defaultDefinableInline": true,
+    "defaultDefinableAtProjectLevel": true,
+
+    "params": [
+        {
+            "name": "domain",
+            "label": "Auth0 Domain",
+            "description": "Do not include https://",
+            "type": "STRING",
+            "required": true
+        },
+        {
+            "name": "client_id",
+            "label": "Client Id",
+            "type": "STRING",
+            "required": true
+        },
+        {
+            "name": "client_secret",
+            "label": "Client Secret",
+            "type": "STRING",
+            "required": true
+        }
+    ]
+}

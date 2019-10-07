@@ -1,0 +1,19 @@
+{
+    "meta" : {
+        "label": "Read Auth0 users",
+        "description": "Fetches Auth0 users list",
+        "icon": "icon-puzzle-piece"
+    },
+
+    "readable": true,
+    "writable": false,
+
+    "params": [
+        {
+            "name": "connection",
+            "label": "Auth0 Connection",
+            "type": "PRESET",
+            "parameterSetId": "auth0-connection"
+        }
+    ]
+}

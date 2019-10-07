@@ -1,0 +1,40 @@
+{
+    "meta": {
+        "label": "Create Auth0 users",
+        "description": "Creates users from a dataset",
+        "icon": "icon-puzzle-piece"
+    },
+
+    "kind": "PYTHON",
+    
+    "selectableFromDataset":"main",
+    
+    "inputRoles": [
+        {
+            "name": "main",
+            "label": "Users to create",
+            "arity": "UNARY",
+            "required": true,
+            "acceptsDataset": true
+        }
+    ],
+
+    "outputRoles": [
+        {
+            "name": "main",
+            "label": "Results",
+            "arity": "UNARY",
+            "required": true,
+            "acceptsDataset": true
+        }
+    ],
+
+    "params": [
+        {
+            "name": "connection",
+            "label": "Auth0 Connection",
+            "type": "PRESET",
+            "parameterSetId": "auth0-connection"
+        }
+    ]
+}
